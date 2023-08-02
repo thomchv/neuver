@@ -1,0 +1,9 @@
+1) Télécharger l'archive et l'extraire.
+2) Ouvrir un terminal à l'emplacement du dossier extrait.
+3) Executer "php -S localhost:8080" dans le terminal.
+4) Ouvrir votre navigateur et saisir l'url suivante : "http://localhost:8080/connexion.php".
+5) Vous pouvez maintenant vous connecter et utiliser le site :
+  - les identifiants et les mots de passe se trouvent dans le dossier files, dans le fichier 'identifiant.csv'.
+  - la liste des artistes est dans ce même dossier, dans le fichier 'infoMusiciens.csv'.
+  - lorsqu'on ajoute un artiste, on peut alors ajouter des titres pour celui ci, et son fichier se crée dans le dossier artistes.
+  - la recherche utilisateur est faite de telle sorte que les espaces, les majuscules et les caractères spéciaux ne sont pas pris en compte (par exemple, ecrire "TAyL'oR s w I fT" vous amènera à la page de Taylor Swift).
